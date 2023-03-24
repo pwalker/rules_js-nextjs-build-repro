@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "ibazel run next_dev",
+    "build": "bazel build next",
+    "start": "bazel run next_start"
+  },
+  "dependencies": {
+    "@nextjs-example/one": "workspace:*",
+    "@tanstack/react-query": "^4.28.0",
+    "@types/is-even": "1.0.0",
+    "is-even": "1.0.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "13.4.0",
+    "@types/jest": "29.2.3",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.2.4",
+    "jest-environment-jsdom": "29.3.1",
+    "jest-transform-stub": "2.0.0",
+    "typescript": "4.9.5"
+  }
+}
